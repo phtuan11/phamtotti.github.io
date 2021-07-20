@@ -1,0 +1,67 @@
+@media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+    }
+    
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .btn-mobile-menu {
+        display: block;
+    }
+
+    #header .btn-search {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 100%;
+    }
+
+    #slider .slider-content {
+        display: none;
+    }
+
+    #content .content-section .content-about {
+        text-align: justify;
+    }
+
+    #content .place-body .place-btn-buy {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+
+    #content .btn-submit {
+        width: 100%;
+    }
+}
