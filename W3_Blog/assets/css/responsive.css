@@ -1,0 +1,18 @@
+/* TABLET and MOBILE*/ 
+@media (max-width: 37.49rem) {
+    .s-col-full {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 62rem) and (min-width: 37.5rem) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-height {
+        height: 500px;
+        object-fit: cover;
+    }
+}

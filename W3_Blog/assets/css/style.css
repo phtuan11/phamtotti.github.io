@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* common */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.opa {
+    opacity: 0.7;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.m-16 {
+    margin: 16px !important;
+}
+
+.padding-32 {
+    padding: 32px !important;
+}
+
+.padding-16 {
+    padding: 16px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+
+}
+
+.col {
+    float: left;
+    padding: 16px;
+}
+
+.col-two-third {
+    width: 66.6666%;
+}
+
+.col-one-third {
+    width: 33.3333%;
+}
+
+/* main */
+.header {
+
+}
+
+.header__heading {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header__heading-tag {
+    padding: 4px 8px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* content */
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.posts-list {
+
+}
+
+.post-item {
+    
+}
+
+.post-img {
+    background-size: cover;
+    width: 100%;
+    display: block;
+}
+
+.post-body {
+    padding: 0 16px;
+    background-color: #fff;
+}
+
+.post-body-heading {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.post-body-title {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.post-body-desc {
+    margin: 15px 0;
+}
+
+.post-body-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.btn-read-more:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.btn-read-more {
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    
+    
+}
+
+.font-icon {
+    font-size: 12px;
+}
+
+.box-quantity {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    margin-left: 8px;
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+}
+
+.post-comment {
+    padding: 12px 24px;
+}
+
+/* profile */
+.profile {
+
+}
+
+.profile-img {
+    background-size: cover;
+    width: 100%;
+    display: block;
+}
+
+.profile-body {
+    padding: 0 16px;
+    background-color: #fff;
+}
+
+.profile-name {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.profile-desc {
+    padding-bottom: 16px;
+}
+
+/* container */
+
+.container {
+    
+}
+
+.container-heading {
+    padding: 20px 16px;
+}
+
+.container-list {
+    list-style-type: none;
+    background-color: #fff;
+}
+
+.container-list li {
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.container-img {
+    width: 50px;
+}
+
+.container-body {
+    margin-left: 16px;
+}
+
+.container-body-name {
+    font-size: 18px;
+}
+
+.container-body-desc {
+    margin-top: 12px;
+}
+/* tag  */
+.tag-body {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.box-tag {
+    background-color: #000 !important;
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 15px !important;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+    background-color: #ccc;
+}
+
+/* footer */
+.footer {
+    background-color:#616161;
+    margin-top: 32px;
+    position: relative;
+}   
+
+.footer-content {
+    padding: 32px 16px;
+}
+
+.footer-btn {
+    padding: 15px 24px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.footer-btn:nth-child(1):hover {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.3;    
+}
+
+.footer-btn:nth-child(2):hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.footer-btn:nth-child(1) {
+    background-color: #444;
+    color: #fff;
+    opacity: 0.3;
+}
+
+.footer-btn:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright {
+    padding: 16px 0;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.to-the-top:hover {
+    background-color: #ccc;
+    color: #000;
+    transition: 0.3s;
+}
+
+.to-the-top {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 16px;
+    bottom: 20%;
+    right: 1%;
+    text-decoration: none;
+}
+
+.to-the-top i {
+    margin-right: 8px;
+}

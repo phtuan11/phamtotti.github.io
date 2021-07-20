@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* common */
+.mt--16 {
+    margin-top: -16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.w3_padding {
+    padding: 8px 29px !important;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+}
+
+.col-four {
+    width: 25%;
+    padding: 0 8px;
+}
+
+/* main */
+.main {
+    /* max-width: 1420px;
+    margin: 0 auto; */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.nav {
+    height: 54px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    padding: 0 12px;
+}
+
+.nav-item:hover {
+    background-color: #ccc!important
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 12px 16px;
+    letter-spacing: 4px;
+    display: block;
+}
+
+/* slider */
+.slider {
+    padding-top: 50%;
+    background-image: url('../img/architect.jpg');
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.slider-heading {
+    top: 52%;
+    left: 39%;
+    font-size: 36px;
+    position: absolute;
+    color: #fff;
+}
+
+.slider-heading .box {
+    padding: 8px 16px;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+/* content */
+.content { 
+    /* width: 1419px;
+    margin-left: auto;
+    margin-right: auto;  */
+}
+
+.content-section {
+    padding-top: 40px;
+}
+
+.content-heading {
+    margin: 10px 0 44px;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.projects-list {
+    
+}
+
+.projects-item:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.projects-item {
+    position: relative;
+}
+
+.projects-item-heading {
+    position: absolute;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.projects-item-img {
+    width: 100%;
+}
+
+/* about team */
+.team-item {
+
+}
+
+.team-item-img {
+    width: 100%;
+    filter: grayscale(80%);
+}
+
+.team-item-info {
+    text-align: left;
+}
+
+.team-item-name {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.team-item-role {
+    opacity: 0.7;
+    margin: 15px 0;
+}
+
+.team-item-desc {
+    margin: 15px 0;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.btn-contact {
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+
+/* contact */
+.contact-form {
+
+}
+
+.form-control {
+    width: 98.4%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+}
+.btn-submit:hover {
+    cursor: pointer;
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.btn-submit {
+    padding: 10px 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+.map {
+    padding-top: 50%;
+    background: url('../img/map.jpg');
+    margin: 32px 29px 0;
+    background-size: cover;
+}
+/* footer */
+.footer {
+    padding: 16px 0;
+    text-align: center;
+    background-color: #000;
+}
+
+.copyright {
+    margin: 16px 0;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+}
+
