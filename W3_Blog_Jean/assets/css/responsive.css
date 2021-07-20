@@ -1,0 +1,17 @@
+/* Tablet */
+@media (max-width: 62rem) and (min-width:37.51rem){
+    .m-col-1 {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 37.5rem) {
+    .s-col-1 {
+        width: 100%;
+    }
+    
+    .s-hide {
+        display: none;
+    }
+}
