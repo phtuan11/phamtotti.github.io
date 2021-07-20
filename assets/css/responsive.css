@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 /* Tablet */
 @media (max-width: 62rem) {
     .m-col-1 {
         width: 100%;
     }
 }
+=======
+/* Tablet */
+@media (max-width: 62rem) {
+    .m-col-1 {
+        width: 100%;
+    }
+}
+>>>>>>> Stashed changes
