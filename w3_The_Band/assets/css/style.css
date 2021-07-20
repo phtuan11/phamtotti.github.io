@@ -156,7 +156,7 @@ html {
     background-color: #fff;
     top: 46px;
     list-style-type: none;
-    box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #333;
 }
 
 #nav .subnav a {
