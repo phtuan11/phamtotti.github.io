@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Mai's Blog Life</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-facebook-square"></i>
+                </a>
+            </li>
+
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-instagram"></i>
+                </a>
+            </li>
+
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-snapchat"></i>
+                </a>
+            </li>
+
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-flickr"></i>
+                </a>
+            </li>
+
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li class="nav__item ">
+                <a href="#" class="nav__link w3-hover">
+                    <i class="font-icon fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav__btn-search ">
+            <i class="icon-search fas fa-search w3-hover"></i>
+        </div>
+    </nav>
+
+    <header class="header text-center p-48-16">
+        <h1 class="header__heading m-10-0">
+            <b>MAI BLOGLIFE</b>
+        </h1>
+        <h3 class="header__sub-heading m-10-0">Welcome to the blog of <span class="box">Mai's world</span></h3>
+    </header>
+
+    <!-- begin display -->
+    <div class="display">
+        <img src="./assets/img/jane.jpg" alt="" class="display__img">
+        <div class="display__body">
+            <h2 class="display__body-name">Mai's</h2>
+            <h1 class="display__body-heading"><b>FASHION BLOG</b></h1>
+            <button class="btn-subs w3-hover">SUBSCRIBE</button>
+        </div>
+    </div>
+
+    <div class="modal-subs">
+        <div class="modal-subs__content">
+            <header class="modal-subs__header">
+                <b class="modal-subs__heading">SUBSCRIBE</b>
+                <div class="modal-subs__close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </header>
+            <p class="modal-subs__desc">
+                Join my mailing list to receive updates on the latest blog posts and other things.
+            </p>
+            <form action="" class="modal-subs__form">
+                <input class="form-control" type="email" placeholder="Enter your Email Address" required>
+                <input class="btn-submit w3-hover mt-16" type="submit" value="Subcribe">
+            </form>
+        </div>
+    </div>
+    <!-- end display -->
+    <!-- begin content -->
+    <div class="content row">
+        <!-- status -->
+        <div class="col col-2-3">
+            <div class="status-container box-shadow">
+                <header class="status-container__header text-center">
+                    <h2 class="status-container__heading">Beach Girl</h2>
+                    <h4 class="status-container__sub-heading">Title description,<span class="op-07"> May 2, 2016</span>
+                    </h4>
+                </header>
+                <img src="./assets/img/girl_hat.jpg" alt="" class="status-container__img">
+                <p class="status-container__desc">
+                    <span>More Hats!</span> I am crazy about hats these days. Some text about this blog entry. Fashion
+                    fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id
+                    lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                    ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo
+                    condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </p>
+                <p class="status-container__desc">Sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <footer class="status-container__footer">
+                    <button class="btn-like w3-hover">
+                        <i class="fas fa-thumbs-up"></i>
+                        Like
+                    </button>
+                    <button class="btn-liked w3-hover">
+                        <i class="fas fa-check"></i>
+                        Liked
+                    </button>
+                    <button onclick="openReplies('demo1');" class="btn-replies js-btn-replies w3-hover">
+                        Replies
+                        <span class="quantity">1</span>
+                    </button>
+                </footer>
+                <div id="demo1" class="all-comments js-all-comments">
+
+                    <hr>
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/avatar_smoke.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>George</strong> <span class="op-07">May 3, 2015, 6:32 PM</span></p>
+                            <p class="status-container__cmt-desc">Great blog post! Following</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--  -->
+            <div class="status-container box-shadow">
+                <header class="status-container__header text-center">
+                    <h2 class="status-container__heading">Men Hats!</h2>
+                    <h4 class="status-container__sub-heading">Title description,<span class="op-07"> April 23,
+                            2016</span> </h4>
+                </header>
+                <img src="./assets/img/man_hat.jpg" alt="" class="status-container__img">
+                <p class="status-container__desc">
+                    <span>Hats!</span> The trend this summer is hats for men!
+                </p>
+                <p class="status-container__desc">Some text about this blog entry. Fashion fashion and mauris neque
+                    quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                    Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                    vitae, ultricies congue gravida diam non fringilla.</p>
+                <footer class="status-container__footer">
+                    <button class="btn-like w3-hover">
+                        <i class="fas fa-thumbs-up"></i>
+                        Like
+                    </button>
+                    <button class="btn-liked w3-hover">
+                        <i class="fas fa-check"></i>
+                        Liked
+                    </button>
+                    <button onclick="openReplies('demo2');" class="btn-replies js-btn-replies w3-hover">
+                        Replies
+                        <span class="quantity">2</span>
+                    </button>
+                </footer>
+
+                <div id="demo2" class="all-comments js-all-comments">
+                    <hr>
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/girl_mountain.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>Amber</strong> <span class="op-07">April 26, 2015, 10:52 PM</span></p>
+                            <p class="status-container__cmt-desc">Love hats!!</p>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/girl_hood.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>Angie</strong> <span class="op-07">April 23, 2015, 9:12 PM</span></p>
+                            <p class="status-container__cmt-desc">
+                                Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--  -->
+            <div class="status-container box-shadow">
+                <header class="status-container__header text-center">
+                    <h2 class="status-container__heading">Run Way</h2>
+                    <h4 class="status-container__sub-heading">Title description,<span class="op-07"> April 7,
+                            2016</span> </h4>
+                </header>
+                <img src="./assets/img/runway.jpg" alt="" class="status-container__img">
+                <p class="status-container__desc">
+                    <span>Dont miss! </span> The runway in New York City this weekend is gonna be legendary!
+                </p>
+                <p class="status-container__desc">Some text about this blog entry. Fashion fashion and mauris neque
+                    quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                    Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                    vitae, ultricies congue gravida diam non fringilla.</p>
+                <footer class="status-container__footer">
+                    <button class="btn-like w3-hover">
+                        <i class="fas fa-thumbs-up"></i>
+                        Like
+                    </button>
+                    <button class="btn-liked w3-hover">
+                        <i class="fas fa-check"></i>
+                        Liked
+                    </button>
+                    <button onclick="openReplies('demo3');" class="btn-replies js-btn-replies w3-hover">
+                        Replies
+                        <span class="quantity">3</span>
+                    </button>
+                </footer>
+
+
+                <div id="demo3" class="all-comments js-all-comments">
+                    <hr>
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/girl_mountain.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>Jane</strong> <span class="op-07">April 10, 2015, 7:22 PM</span></p>
+                            <p class="status-container__cmt-desc">
+                                That was a great runway show! Thanks for everything.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/girl_train.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>John</strong> <span class="op-07">April 8, 2015, 10:32 PM</span></p>
+                            <p class="status-container__cmt-desc">
+                                Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="status-container__cmt">
+                        <img src="./assets/img/boy.jpg" alt="" class="status-container__cmt-img">
+                        <div class="status-container__cmt-body">
+                            <p><strong>Anja</strong> <span class="op-07"> April 7, 2015, 9:12 PM</span></p>
+                            <p class="status-container__cmt-desc">Cant wait for the runway to start!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- content left -->
+        <div class="col col-1-3">
+            <div class="boxs-list">
+                <div class="box-person box-shadow">
+                    <img src="./assets/img/avatar_girl2.jpg" alt="" class="box-person-img">
+                    <div class="box-body">
+                        <h3 class="person-name">Mai PN</h3>
+                        <p class="person-desc">
+                            Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+                            interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Popular Posts</h3>
+                    </div>
+                    <ul class="posts-list">
+                        <li class="post-item">
+                            <img src="./assets/img/post1.jpg" alt="" class="post-item-img">
+                            <div class="post-item-info">
+                                <p>Denim</p>
+                                <p>Sed mattis nunc </p>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <img src="./assets/img/post2.jpg" alt="" class="post-item-img">
+                            <div class="post-item-info">
+                                <p>Sweaters</p>
+                                <p>Praes tinci sed</p>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <img src="./assets/img/post3.jpg" alt="" class="post-item-img">
+                            <div class="post-item-info">
+                                <p>Workshop</p>
+                                <p>Ultricies congue</p>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <img src="./assets/img/post1.jpg" alt="" class="post-item-img">
+                            <div class="post-item-info">
+                                <p>Trends</p>
+                                <p>Lorem ipsum dipsum</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Advertise</h3>
+                    </div>
+                    <div class="box-adv box-shadow">
+                        <iframe width="100%" height="300"
+                            src="https://www.youtube.com/embed/IFYtOVoiat4?autoplay=1&mute=1">
+                        </iframe>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Tags</h3>
+                    </div>
+
+                    <div class="box-tags box-shadow">
+                        <span class="tag tag-black">Fashion</span>
+                        <span class="tag">New York</span>
+                        <span class="tag">London</span>
+                        <span class="tag">Hats</span>
+                        <span class="tag">Norway</span>
+                        <span class="tag">Sweaters</span>
+                        <span class="tag">Ideas</span>
+                        <span class="tag">Deals</span>
+                        <span class="tag">Accessories</span>
+                        <span class="tag">News</span>
+                        <span class="tag">Clothing</span>
+                        <span class="tag">Shopping</span>
+                        <span class="tag">Jeans</span>
+                        <span class="tag">Trends</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Inspiration</h3>
+                    </div>
+                    <div class="box-inspiration row">
+                        <div class="fix-col col col-1-2">
+                            <img src="./assets/img/Inspiration1.jpg" alt="" class="box-inspiration-img">
+                            <img src="./assets/img/Inspiration3.jpg" alt="" class="box-inspiration-img">
+                        </div>
+                        <div class="fix-col col col-1-2">
+                            <img src="./assets/img/Inspiration2.jpg" alt="" class="box-inspiration-img">
+                            <img src="./assets/img/Inspiration4.jpg" alt="" class="box-inspiration-img">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Flow Me</h3>
+                    </div>
+                    <ul class="socials-list">
+                        <li><i class="font-icon fab fa-facebook-square"></i></li>
+                        <li><i class="font-icon fab fa-instagram"></i></li>
+                        <li><i class="font-icon fab fa-snapchat"></i></li>
+                        <li><i class="font-icon fab fa-flickr"></i></li>
+                        <li><i class="font-icon fab fa-twitter"></i></li>
+                        <li><i class="font-icon fab fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="box-content box-shadow">
+                    <div class="box-title">
+                        <h3>Subscribe</h3>
+                    </div>
+                    <div class="box-subs">
+                        <p class="box-subs-desc">Enter your e-mail below and get notified on the latest blog posts.</p>
+                        <form action="">
+                            <input type="email" placeholder="Email" required class="form-control">
+                        </form>
+                        <button class="btn-subs fix-btn-subs w3-hover">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end content -->
+    <footer class="footer">
+        <a href="#" class="btn-to-the-top">
+            <i class="fas fa-arrow-up"> </i>
+            To the top
+        </a>
+        <div class="copyright">
+            <p>Powered by <a href="">w3.css</a></p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
