@@ -201,7 +201,7 @@
 /* ===================================SEARCH======================================= */
 .search {
     height: 100vh;
-    background: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg) center no-repeat;
+    background: url(../img/london.jpg) center no-repeat;
     filter: grayscale(36%);
     z-index: -1;
     display: flex;
@@ -802,7 +802,7 @@
 
 /* <!-- ========================FOOTER====================== --> */
 .footer {
-    background: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-7.jpg?id=1602) center no-repeat;
+    background: url(../img/footer-background.jpg) center no-repeat;
     background-size: cover;
     padding-bottom: 40px;
 }   
